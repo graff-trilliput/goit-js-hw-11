@@ -1,1 +1,48 @@
 @import '~node_modules/modern-normalize/modern-normalize.css';
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.info {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+  justify-content: space-between;
+}
+
+img {
+  display: block;
+  object-fit: cover;
+  width: 100%;
+}
+
+.photo-card {
+  width: 160px;
+}
+
+.info-item {
+  font-size: 10px;
+}
+
+.photo-card a {
+  width: 160px;
+  height: 120px;
+  display: block;
+  overflow: hidden;
+  border-radius: 5px;
+}
+
+.search-form {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  padding: 20px 0;
+}
+
+.load-more {
+  display: block;
+  margin: 30px auto;
+}
